@@ -1,8 +1,28 @@
 aid: make-the-dot
 name: Make the Dot
-description: Make the Dot is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Make the Dot is an AI-powered product development platform for fashion and
+  apparel teams. It unifies design, development, and merchandising workflows so
+  brands can build production-ready collections digitally — reducing physical
+  sampling, accelerating time to market, and connecting the tools teams already
+  use (PLM, Shopify, NuOrder, Airtable, Google Suite, Salesforce, Coloro, fabric
+  mills, and Browzwear). It serves everyone from independent Shopify brands to
+  billion-dollar apparel companies. Make the Dot is a 500 Global portfolio
+  company. As of this enrichment pass the company exposes a web application and a
+  help center but publishes no public developer API, SDK, or OpenAPI surface.
 url: https://raw.githubusercontent.com/api-evangelist/make-the-dot/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69ab2b481e7daba7def66579/6a28826601cea7215c588ce1_mtd-logo-transparent.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fashion
+- Apparel
+- Product Development
+- PLM
+- Design
+- Merchandising
+- Artificial Intelligence
+- SaaS
+- Collaboration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://makethedot.com
+  url: https://www.makethedot.com
+- type: Pricing
+  url: https://www.makethedot.com/pricing
+- type: Blog
+  url: https://www.makethedot.com/blog
+- type: Support
+  url: https://help.makethedot.com/en/
+- type: GettingStarted
+  url: https://www.makethedot.com/how-to-guide
+- type: Login
+  url: https://app.makethedot.com/
+- type: TermsOfService
+  url: https://www.makethedot.com/terms
+- type: PrivacyPolicy
+  url: https://www.makethedot.com/terms
+- type: GitHubOrganization
+  url: https://github.com/makethedot
+- type: DomainSecurity
+  url: security/make-the-dot-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
