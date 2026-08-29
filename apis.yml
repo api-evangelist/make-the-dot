@@ -11,6 +11,17 @@ description: >-
   company. As of this enrichment pass the company exposes a web application and a
   help center but publishes no public developer API, SDK, or OpenAPI surface.
 url: https://raw.githubusercontent.com/api-evangelist/make-the-dot/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
