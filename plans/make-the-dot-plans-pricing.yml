@@ -1,0 +1,54 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.makethedot.com/pricing
+sources:
+- https://www.makethedot.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Credit-based subscription tiers; no per-seat charges. Enterprise and student pricing not published.
+plan_count: 5
+currency: USD
+plans:
+- name: Studio
+  price_text: $149 /mo
+  price: 149
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: 150 credits / month ≈ 15 styles per month; up to 3 users
+  overage: Upgrade or buy credit packs
+- name: Brand — Annual
+  price_text: $899 /mo
+  price: 899
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: 750 credits / month ≈ 75 styles per month; unlimited users; up to 20% credit rollover
+  overage: Upgrade or buy credit packs
+- name: Brand — Quarterly
+  price_text: $999 /mo
+  price: 999
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: 750 credits / month
+  overage: Upgrade or buy credit packs
+- name: Enterprise — Platform fee
+  price_text: Contact Sales
+  period: none
+  included_quota: Custom credits, PLM and ecom integration, SSO, audit logs, dedicated success team
+  overage: Negotiated
+- name: Students
+  price_text: Contact Us
+  period: none
+  included_quota: Discounted plans for students at accredited institutions
