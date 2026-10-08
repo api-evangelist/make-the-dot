@@ -52,3 +52,49 @@ plans:
   price_text: Contact Us
   period: none
   included_quota: Discounted plans for students at accredited institutions
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  - metered
+  units: []
+  plans:
+  - name: Studio
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Brand — Annual
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Brand — Quarterly
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Enterprise — Platform fee
+    access: other
+    model: metered
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Students
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
